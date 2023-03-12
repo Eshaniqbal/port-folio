@@ -63,7 +63,7 @@ margin-left: 25px;
 }
 .home{
     display: flex;
-    background: white repeat fixed;
+    background: url("images/hii.jpeg") no-repeat ;
     height: 100vh;
     color: black;
     
