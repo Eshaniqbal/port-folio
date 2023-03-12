@@ -1,0 +1,108 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+*{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.nav-content{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: static;
+    width: 100%;
+    padding: 15px 0px;
+    background: rgb(172,168,231);
+background: linear-gradient(90deg, rgba(172,168,231,1) 0%, rgba(196,158,158,1) 36%, rgba(87,227,153,1) 100%);
+    border-radius: 20px;
+}
+.navbar .logo a{
+    color: rgb(42 247 249 / 86%);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.navbar .logo a span{
+    color: white;
+
+}
+.navbar .logo a span:hover{
+
+    color: crimson;
+    transition: 0.5s;
+}
+.navbar .nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar .menu li a{ 
+color: white;
+font-size: 15px;
+font-weight: 500;
+margin-left: 25px;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+    transition: 0.5s;
+}
+.contact-2{
+    display: inline;
+    margin-top: 20%;
+padding: 20px;
+ margin-left: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.contact-1 span{
+font-size: 30px;
+font-weight: 800;
+color: crimson;
+margin-left: -42px;
+}
+.contact-2 h2{
+  color: black;
+    padding: 19px;
+    margin-left: -37px;
+    font-size: 20px;
+ 
+    letter-spacing: 0px;
+   
+}
+.contact-1{
+    margin-top: 15%;
+    height: 50vh;
+ margin-left: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.social i{
+    font-size: 20px;
+    letter-spacing: 17px;
+    color: blue;
+}
+.contact{
+    margin-left: -35px;
+}
+section{
+    overflow: hidden;
+   background: grey repeat center;
+
+}
+.social i:hover{
+    color: crimson;
+    transition: 0.2s;
+    text-shadow: 20px;
+}

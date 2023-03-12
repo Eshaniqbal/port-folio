@@ -1,0 +1,142 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+*{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.nav-content{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: static;
+    width: 100%;
+    padding: 15px 0px;
+    background: rgb(172,168,231);
+background: linear-gradient(90deg, rgba(172,168,231,1) 0%, rgba(196,158,158,1) 36%, rgba(87,227,153,1) 100%);
+    border-radius: 20px;
+}
+.navbar .logo a{
+    color: rgb(42 247 249 / 86%);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.navbar .logo a span{
+    color: white;
+
+}
+.navbar .logo a span:hover{
+
+    color: crimson;
+    transition: 0.5s;
+}
+.navbar .nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar .menu li a{ 
+color: white;
+font-size: 15px;
+font-weight: 500;
+margin-left: 25px;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+    transition: 0.5s;
+}
+section{
+    width: 100%;
+    margin-top: 0;
+    background: url("images/hii2.jpeg") no-repeat fixed;
+}
+.main-box{
+    margin-top: 0%;
+   
+   
+}
+.main-2{
+    overflow: auto;
+    align-items: center;
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    height: 100vh;
+ gap: 20% 10%;
+    width: 100%;
+    margin-left: 9%;
+}
+.about{
+    
+    overflow: hidden;
+    width: 500px;
+}
+.about p {
+    font-family: 'Poppins', sans-serif;
+font-size: 12px;
+color: rgb(0, 0, 0);
+font-weight: 500;
+}
+.skills{
+    width: 300px;
+    margin-bottom: 100px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.projects{
+    margin-bottom: 137px;
+}
+.projects ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.about span{
+font-size: 30px;
+color: crimson;
+font-weight: 800;
+}
+.skills span{
+    font-size: 30px;
+    color: crimson;
+    font-weight: 800;
+}
+.projects span{
+    font-size: 30px;
+    color: crimson;
+    font-weight: 800;
+}
+.projects a{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.projects a:hover{
+    color: rgb(78, 78, 78);
+    font-family: 'Poppins', sans-serif;
+}
+.about  span:hover{
+color: green;
+transition: 0.5s;
+}
+.skills span:hover{
+    color: green;
+    transition: 0.5s;
+    }
+    .projects  span:hover{
+        color: green;
+        transition: 0.5s;
+        }

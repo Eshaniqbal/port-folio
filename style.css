@@ -1,0 +1,132 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+*{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    overflow: hidden;
+    background: url("images/hii.jpeg") no-repeat center;
+}
+.nav-content{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0px;
+    background: rgb(172,168,231);
+background: linear-gradient(90deg, rgba(172,168,231,1) 0%, rgba(196,158,158,1) 36%, rgba(87,227,153,1) 100%);
+    border-radius: 20px;
+}
+.navbar .logo a{
+    color: rgb(42 247 249 / 86%);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.navbar .logo a span{
+    color: white;
+
+}
+.navbar .logo a span:hover{
+
+    color: crimson;
+    transition: 0.5s;
+}
+.navbar .nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar .menu li a{ 
+color: white;
+font-size: 15px;
+font-weight: 500;
+margin-left: 25px;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+    transition: 0.5s;
+}
+.home{
+    display: flex;
+    background: white repeat fixed;
+    height: 100vh;
+    color: black;
+    
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+    width: 100%;
+
+}
+.home .home-content .text-1{
+    font-size: 27px;
+
+
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+
+
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+
+}
+.home .home-content .text-3 span{
+    color: crimson;
+}
+.home .home-content .text-3 span:hover{
+    color: black;
+    transition: 0.5s;
+}
+.button a {
+    background: transparent;
+    margin-top: 5px;
+    font-family: 'Ubuntu', sans-serif;
+  padding: 3px 5px;
+  border-radius: 20px;
+    color: whitesmoke;
+    background: rgb(206,205,213);
+    background: linear-gradient(90deg, rgba(206,205,213,1) 0%, rgba(196,158,158,1) 36%, rgba(215,171,171,0.9444152661064426) 100%);
+
+}
+.button a:hover{
+    color: crimson;
+    transition: 0.5s;
+    background:  rgb(172,168,231);
+    background: linear-gradient(90deg, rgba(172,168,231,1) 0%, rgba(196,158,158,1) 36%, rgba(87,227,153,1) 100%);;
+}
+.section-3{
+    height: 100vh;
+    display: inline-block;
+   
+}
+.about1{
+    display: flex;
+    background: grey;
+}
+.about-2 img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+}
